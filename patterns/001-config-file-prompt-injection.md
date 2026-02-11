@@ -153,7 +153,7 @@ The configuration file is part of the agent's supply chain - a trusted input tha
 
 - [OWASP Top 10 for LLM Applications - LLM01: Prompt Injection](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - [OWASP Agentic AI Threats](https://genai.owasp.org/threats-and-risks/)
-- [AIVSS - AI Vulnerability Scoring System](https://www.aivss.org/)
+- [AIVSS - AI Vulnerability Scoring System](https://aivss.owasp.org/)
 - [Simon Willison - Prompt Injection: What's the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)
 
 ---

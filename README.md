@@ -25,8 +25,8 @@ The security community benefits from documented, reproducible attack patterns wi
 Every pattern in this library is mapped to:
 
 - **[OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - industry-standard classification for LLM vulnerabilities
-- **[AIVSS (AI Vulnerability Scoring System)](https://www.aivss.org/)** - severity scoring designed for AI-specific risks
-- **[MAESTRO Framework](https://github.com/anthropics/maestro)** - agentic AI threat modelling layers
+- **[AIVSS (AI Vulnerability Scoring System)](https://aivss.owasp.org/)** - severity scoring designed for AI-specific risks
+- **[MAESTRO Framework](https://github.com/CloudSecurityAlliance/MAESTRO)** - agentic AI threat modelling layers
 
 ## Repository Structure
 
