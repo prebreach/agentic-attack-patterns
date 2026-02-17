@@ -35,7 +35,9 @@ Every pattern in this library is mapped to:
 ├── TEMPLATE.md            ← Standard template for new entries
 ├── CONTRIBUTING.md        ← How to contribute
 └── patterns/
-    └── 001-config-file-prompt-injection.md
+    ├── 001-config-file-prompt-injection.md
+    ├── 002-state-file-poisoning.md
+    └── 003-visual-prompt-injection.md
 ```
 
 ## Attack Patterns
@@ -43,6 +45,8 @@ Every pattern in this library is mapped to:
 | #   | Pattern                                                                             | OWASP Mapping           | Severity | Target Architecture                       |
 | --- | ----------------------------------------------------------------------------------- | ----------------------- | -------- | ----------------------------------------- |
 | 001 | [Configuration File Prompt Injection](patterns/001-config-file-prompt-injection.md) | LLM01: Prompt Injection | High     | Single-agent with config-driven behaviour |
+| 002 | [State File Poisoning](patterns/002-state-file-poisoning.md)                        | LLM01: Prompt Injection | High     | Single-agent with persistent memory       |
+| 003 | [Visual Prompt Injection](patterns/003-visual-prompt-injection.md)                  | LLM01: Prompt Injection | Medium   | Vision-based agents analysing external content |
 
 ## Who Maintains This
 
