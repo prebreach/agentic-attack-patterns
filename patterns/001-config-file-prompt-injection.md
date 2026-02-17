@@ -45,9 +45,9 @@ The agent implicitly trusts its configuration input with no integrity checking o
 
 ### Environment Setup
 
-- **Target:** Argus Visual QA Agent - a single-agent system that navigates to web pages, captures screenshots, and uses an LLM (Claude) to evaluate whether the rendered page matches expected design specifications
+- **Target:** Argus Visual QA Agent - a single-agent system that navigates to web pages, captures screenshots, and uses an LLM (OpenAI) to evaluate whether the rendered page matches expected design specifications
 - **Configuration:** JSON config file defining target URLs, expected design criteria, and evaluation parameters
-- **LLM:** Claude (Anthropic) via API
+- **LLM:** OpenAI via API
 
 ### Reproduction Steps
 
